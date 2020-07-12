@@ -20,24 +20,24 @@
             :class="menuOpen ? 'block' : 'hidden'">
             <ul class="list-reset lg:flex justify-end flex-1 items-center">
               <li class="mr-3">
-                <a href="#responsive-header"
-                  class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">About</a>
+                <a href="#about"
+                  class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">Tentang</a>
               </li>
               <li class="mr-3">
-                <a href="#responsive-header"
-                  class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">Features</a>
+                <a href="#features"
+                  class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">Fitur</a>
               </li>
             </ul>
           </div>
         </nav>
       </header>
 
-      <section class=" body-font bg-green-500">
+      <section class=" body-font bg-green-500" id="about">
         <div class="">
           <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
             <!--Left Col-->
             <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left md:pl-32">
-              <p class="uppercase tracking-loose w-full text-white">Interesting with us?</p>
+              <p class="uppercase tracking-loose w-full text-white">Tertarik dengan kita?</p>
               <h1 class="my-4 text-5xl font-bold leading-tight text-white">Plug & Plant</h1>
               <p class="leading-normal text-1xl mb-8 text-justify text-white">Aplikasi untuk membantu anda merawat
                 tanaman anda dengan mudah. Memberikan anda beberapa saran dalam menyelesaikan sebuah permasalahan pada
@@ -78,9 +78,9 @@
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div
             class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 class="title-font sm:text-4xl text-3xl mb-2 font-medium">The Problems
+            <h1 class="title-font sm:text-4xl text-3xl mb-2 font-medium">Masalah
             </h1>
-            <div class="w-56 mb-4">
+            <div class="w-40 mb-4">
               <div class="h-1 bg-green-500 opacity-25 my-0 py-0 rounded-t"></div>
             </div>
             <p class="mb-8 leading-relaxed text-justify">Beberapa orang menjadi frustrasi ketika mereka merawat tanaman mereka. Mereka terkadang lupa untuk menyiram. Tidak tahu lingkungan apa yang baik untuk tanaman dan hal-hal apa yang harus dihindari tanaman.</p>
@@ -92,11 +92,11 @@
       </section>
 
 
-      <section class="text-gray-700 body-font">
+      <section class="text-gray-700 body-font" id="features">
          <div class="flex flex-col text-center w-full">
-            <h1 class="sm:text-3xl text-2xl font-medium title-font">Features</h1>
+            <h1 class="sm:text-3xl text-2xl font-medium title-font">Fitur</h1>
             <div class="w-full mb-4">
-          <div class="h-1 mx-auto bg-green-500 w-40 opacity-25 my-0 py-0 rounded-t"></div>
+          <div class="h-1 mx-auto bg-green-500 w-24 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
           </div>
         <div class="container px-5 py-20 mx-auto flex flex-wrap">
