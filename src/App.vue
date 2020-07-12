@@ -36,34 +36,48 @@
       </nav>
     </header>
 
-    <section class="text-gray-500 bg-gray-900 body-font">
+    <section class=" body-font">
       <div class="container px-5 py-24 mx-auto flex flex-col">
         <div class="lg:w-4/6 mx-auto">
           <div class="flex flex-col sm:flex-row mt-10">
             <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
               <div
-                class="w-40 h-40 inline-flex items-center justify-center mt-5"
-                style="margin-top:90px;"
+                class="inline-flex items-center justify-center mt-5"
               >
-                <img src="../src/assets/ss_mobile/1.png" alt srcset />
+                <img src="../src/assets/img/women.jpg" alt srcset />
               </div>
             </div>
             <div
               class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-800 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left"
             >
               <h1 class="text-6xl">Plug And Plant</h1>
-              <p class="text-2xl">Apps to help you to take care your plant easily</p>
-              <p class="text-2xl">Give You some that help you to resolve yhe problems of your plant</p>
+              <p class="text-2xl">Apps to help you to take care your plant easily.</p>
+              <p class="text-2xl">Give You some that help you to resolve the problems of your plant.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="text-gray-500 bg-gray-900 body-font">
+<section class="text-gray-700 body-font">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">The Problems
+      </h1>
+      <p class="mb-8 leading-relaxed">Some poeple get frustrated when they care their plants. <br>
+      they sometime forgot to watering. Don't know what good enviroment for the plant and what kind of things the plants that must avoid.</p>
+    </div>
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <img class="object-cover object-center rounded" alt="hero" src="../src/assets/img/plant.jpg">
+    </div>
+  </div>
+</section>
+
+
+    <section class="body-font">
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-col text-center w-full mb-20" style="margin-bottom:120px;">
-          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Daily Reports</h1>
+          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4">Daily Reports</h1>
           <p
             class="lg:w-2/3 mx-auto leading-relaxed text-base"
           >In this screen you can see the reports of your daily planting and you can easily know. what kind of enviroment that make some your plant delayed in watering</p>
@@ -94,38 +108,27 @@
       </div>
     </section>
 
-    <section class="text-gray-500 bg-gray-900 body-font relative">
+    <section class=" body-font relative">
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-col text-center w-full mb-12">
-          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Contact Us</h1>
+          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4">Contact Us</h1>
           <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
             Questions, consultations, discussions or just getting acquainted,
             <br />please contact the number below. We will try
             provide the best solution.
           </p>
         </div>
-        <div class="lg:w-1/2 md:w-2/3 mx-auto">
-          <div class="flex flex-wrap -m-2">
-            <div class="p-2 w-1/2">
-              <input
-                class="w-full bg-gray-800 rounded border border-gray-700 text-white focus:outline-none focus:border-blue-500 text-base px-4 py-2"
-                placeholder="Name"
-                type="text"
-              />
-            </div>
-            <div class="p-2 w-1/2">
-              <input
-                class="w-full bg-gray-800 rounded border border-gray-700 text-white focus:outline-none focus:border-blue-500 text-base px-4 py-2"
-                placeholder="Email"
-                type="email"
-              />
-            </div>
-            <div class="p-2 w-full">
-              <textarea
-                class="w-full bg-gray-800 rounded border border-gray-700 text-white focus:outline-none h-48 focus:border-blue-500 text-base px-4 py-2 resize-none block"
-                placeholder="Message"
-              ></textarea>
-            </div>
+       <div class="lg:w-1/2 md:w-2/3 mx-auto">
+      <div class="flex flex-wrap -m-2">
+        <div class="p-2 w-1/2">
+          <input class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" placeholder="Name" type="text">
+        </div>
+        <div class="p-2 w-1/2">
+          <input class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" placeholder="Email" type="email">
+        </div>
+        <div class="p-2 w-full">
+          <textarea class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none h-48 focus:border-indigo-500 text-base px-4 py-2 resize-none block" placeholder="Message"></textarea>
+        </div>
             <div class="p-2 w-full">
               <button
                 class="flex mx-auto text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg"
@@ -142,7 +145,7 @@
         </div>
       </div>
     </section>
-    <footer class="text-gray-500 bg-gray-900 body-font">
+    <footer class="body-font">
       <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
         <a
           class="flex title-font font-medium items-center md:justify-start justify-center text-white"
